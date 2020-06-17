@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 97f806f1847e9ba4eba3921730e7a31f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1977238020425465582
+    second: cenarios.fw_0
+  - first:
+      213: 2877237761877141867
+    second: cenarios.fw_1
+  - first:
+      213: -3029799942875845747
+    second: cenarios.fw_2
+  - first:
+      213: 6186568901503943043
+    second: cenarios.fw_3
+  - first:
+      213: 3723478219463302323
+    second: cenarios.fw_4
+  - first:
+      213: 5862444514733776740
+    second: cenarios.fw_5
+  - first:
+      213: 5380978253094944560
+    second: cenarios.fw_6
+  - first:
+      213: 1264200108093280772
+    second: cenarios.fw_7
+  - first:
+      213: -7452957877008598411
+    second: cenarios.fw_8
+  - first:
+      213: 4439892290648397486
+    second: cenarios.fw_9
+  - first:
+      213: 4813519569078200743
+    second: cenarios.fw_10
+  - first:
+      213: -6661196280835526037
+    second: cenarios.fw_11
+  - first:
+      213: 2206253711022907879
+    second: cenarios.fw_12
+  - first:
+      213: 7599883988770855800
+    second: cenarios.fw_13
+  - first:
+      213: 5524864685778788770
+    second: cenarios.fw_14
+  - first:
+      213: -7857520495960411407
+    second: cenarios.fw_15
+  - first:
+      213: -5696334203346459360
+    second: cenarios.fw_16
+  - first:
+      213: -7222826678357361040
+    second: cenarios.fw_17
+  - first:
+      213: -6831566025960651533
+    second: cenarios.fw_18
+  - first:
+      213: -2814183033307599684
+    second: cenarios.fw_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cenarios.fw_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 410
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7e58c92c78d584487c2856ae0426b4
+      internalID: -1977238020425465582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 865
+        width: 52
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779f58535683b5e4fb1e2c7cb8b8b302
+      internalID: 2877237761877141867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 865
+        width: 52
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8210e1c6d69014ab5b7e2281d96f6f
+      internalID: -3029799942875845747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 844
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce96bf28227576842a734d1b2a50fad6
+      internalID: 6186568901503943043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_4
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 832
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ff77368f7e4604e8f1b23bf5bb3695
+      internalID: 3723478219463302323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 120
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759186951664985438587c3f5efc9844
+      internalID: 5862444514733776740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 627
+        width: 117
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c1dd7afd33c1145ace892db164b808
+      internalID: 5380978253094944560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 592
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1e5908b8511b04998810239e8d0830
+      internalID: 1264200108093280772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 652
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456fa4b0e757c834a95e22003d1ba86f
+      internalID: -7452957877008598411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_9
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 652
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3607b7e7f8f3f74ba354dddcf390944
+      internalID: 4439892290648397486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 558
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27a01374112a914aaa2c5cfe921f77a
+      internalID: 4813519569078200743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 511
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e56991894423464e8a80dc4608e3407
+      internalID: -6661196280835526037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 365
+        width: 237
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad35faa4eaa9b3468d92ba0a086e952
+      internalID: 2206253711022907879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 364
+        width: 158
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa9a682696e37d459d97f55e898e37b
+      internalID: 7599883988770855800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_14
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 201
+        width: 137
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a5ff3873623eb42ae6f549000d133f
+      internalID: 5524864685778788770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c989d2de038e594692c245bc95d4451
+      internalID: -7857520495960411407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 232
+        width: 241
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacea49d6d23ab44ea600cdf4fa382ed
+      internalID: -5696334203346459360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 234
+        width: 242
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436f653333d6c1748a0231d2f1759d97
+      internalID: -7222826678357361040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 65
+        width: 983
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee01449b051dfb4a955549553f8bbc5
+      internalID: -6831566025960651533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarios.fw_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 16
+        width: 972
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2683c4e5d7cd64a885d129beaa0fcd
+      internalID: -2814183033307599684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 512310c028f9e29428d12c2f92cdc6f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
