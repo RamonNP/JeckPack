@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Moeda
+  - Dano
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Heroi
+  - IgnoraContato
   - 
   - 
   - 
@@ -52,4 +54,7 @@ TagManager:
     locked: 0
   - name: Jogador
     uniqueID: 2533912917
+    locked: 0
+  - name: Hud
+    uniqueID: 2577414183
     locked: 0
