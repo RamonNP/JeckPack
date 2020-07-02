@@ -926,6 +926,7 @@ GameObject:
   - component: {fileID: 898763209}
   - component: {fileID: 898763208}
   - component: {fileID: 898763210}
+  - component: {fileID: 898763211}
   m_Layer: 8
   m_Name: Heroi
   m_TagString: Untagged
@@ -970,7 +971,7 @@ SpriteRenderer:
   m_SortingLayerID: -1761054379
   m_SortingLayer: 4
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 5d073cbceb52ba54599e4c81704eccb7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8bf4b520829a6a541be29fdd257bdd41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1009,9 +1010,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.08878207, y: -0.1243794}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.8019438
 --- !u!114 &898763208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,6 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742f67a8ff561ee4cb281f2550e16324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jeckPack: {fileID: 1481672267}
   jetpackForce: 75
   forwardMovementSpeed: 3
 --- !u!50 &898763209
@@ -1065,6 +1067,25 @@ MonoBehaviour:
   - {fileID: 1950337648}
   currentRooms: []
   screenWidthInPoints: 0
+--- !u!95 &898763211
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898763204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3e9d75754e3b284d8d79cd264370431, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1166552260
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,6 +6343,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 460938448288007835, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460938449426297061, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pneu
+      objectReference: {fileID: 0}
+    - target: {fileID: 460938449426297063, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.4
+      objectReference: {fileID: 0}
     - target: {fileID: 460938449318498508, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
         type: 3}
       propertyPath: m_Name
@@ -6381,21 +6417,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460938448288007835, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
-        type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460938449426297061, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
-        type: 3}
-      propertyPath: m_Name
-      value: Pneu
-      objectReference: {fileID: 0}
-    - target: {fileID: 460938449426297063, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 460938449346269613, guid: 5b24c95d8ce67d74f9b3dd5466b60e7e,
         type: 3}

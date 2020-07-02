@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class JeckPackController : MonoBehaviour
 {
+    public ParticleSystem jeckPack;
     private uint coins = 0;
     private bool isDead = false;
     public float jetpackForce = 75.0f;
     private Rigidbody2D playerRigidbody;
+    private Animator playerAnimator;    
     public float forwardMovementSpeed = 3f;
     // Start is called before the first frame update
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -20,9 +23,16 @@ public class JeckPackController : MonoBehaviour
         bool jetpackActive = Input.GetButton("Fire1");
         jetpackActive = jetpackActive && !isDead;
 
-        if (jetpackActive)
+        if(jeckPack != null)
         {
-            playerRigidbody.AddForce(new Vector2(0, jetpackForce));
+            if (jetpackActive)
+            {
+                jeckPack.Play();
+                playerRigidbody.AddForce(new Vector2(0, jetpackForce));
+            } else
+            {
+                jeckPack.Stop();
+            }
         }
 
         if (!isDead)
@@ -51,8 +61,11 @@ public class JeckPackController : MonoBehaviour
     void HitByLaser(Collider2D laserCollider)
     {
         isDead = true;
-        //mouseAnimator.SetBool("isDead", true);
+        playerAnimator.SetBool("dead", true);
+        playerRigidbody.gravityScale = 0;
+        Destroy(jeckPack);
     }
+
     void CollectCoin(Collider2D coinCollider)
     {
         coins++;
